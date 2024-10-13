@@ -125,36 +125,56 @@
      ```
 
 3. **FizzBuzz Variant**
-   - **Description:** 
-     - Ask the user to enter a number.
-     - Display "Fizz" if it's divisible by 3 and 6.
-     - Display "Fuzz" if it's divisible by 2 and 6.
-     - Otherwise, display the number itself.
-   - **Sample Input 1:**
-     ```
-     Enter a number: 6
-     ```
-   - **Sample Output 1:**
-     ```
-     Fizz
-     Fuzz
-     ```
-   - **Sample Input 2:**
-     ```
-     Enter a number: 9
-     ```
-   - **Sample Output 2:**
-     ```
-     Fizz
-     ```
-   - **Sample Input 3:**
-     ```
-     Enter a number: 4
-     ```
-   - **Sample Output 3:**
-     ```
-     4
-     ```
+
+
+
+- **Description:**  
+  - Ask the user to enter a number.
+  - Display "Fizz" if the number is divisible by 3.
+  - Display "Fuzz" if the number is divisible by 2.
+  - Display "FizzFuzz" if the number is divisible by both 2 and 3 (i.e., divisible by 6).
+  - Otherwise, display the number itself.
+  
+- **Sample Input 1:**
+  ```
+  Enter a number: 6
+  ```
+
+- **Sample Output 1:**
+  ```
+  FizzFuzz
+  ```
+
+- **Sample Input 2:**
+  ```
+  Enter a number: 9
+  ```
+
+- **Sample Output 2:**
+  ```
+  Fizz
+  ```
+
+- **Sample Input 3:**
+  ```
+  Enter a number: 4
+  ```
+
+- **Sample Output 3:**
+  ```
+  Fuzz
+  ```
+
+- **Sample Input 4:**
+  ```
+  Enter a number: 7
+  ```
+
+- **Sample Output 4:**
+  ```
+  7
+  ```
+
 
 4. **Countdown Timer**
    - **Description:** 
