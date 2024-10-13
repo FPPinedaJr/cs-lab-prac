@@ -7,7 +7,7 @@
      Enter first number: 10
      Enter second number: 5
      ```
-   - **Sample Output:**
+   
      ```
      Sum: 15
      Difference: 5
@@ -23,7 +23,7 @@
      Enter second number: 3
      Enter third number: 15
      ```
-   - **Sample Output:**
+   
      ```
      Minimum Number: 3
      Maximum Number: 15
@@ -35,7 +35,7 @@
      ```
      Enter a number: 7
      ```
-   - **Sample Output:**
+   
      ```
      The number 7 is Odd.
      ```
@@ -47,7 +47,7 @@
      Enter your first name: John
      Enter your last name: Doe
      ```
-   - **Sample Output:**
+   
      ```
      Hello, John Doe!
      ```
@@ -58,7 +58,7 @@
      ```
      Enter a number: 4
      ```
-   - **Sample Output:**
+   
      ```
      The square of 4 is 16.
      ```
@@ -82,7 +82,7 @@
      Enter name of pet 1: Fluffy
      Enter name of pet 2: Spot
      ```
-   - **Sample Output:**
+   
      ```
      Folder 'S12345' created.
      File 'Smith-Jane.txt' created with student information.
@@ -109,7 +109,7 @@
      Enter second number: 2
      Enter third number: 1
      ```
-   - **Sample Output 2:**
+   
      ```
      Numbers are in descending order: 3, 2, 1
      ```
@@ -119,7 +119,6 @@
      Enter second number: 3
      Enter third number: 1
      ```
-   - **Sample Output 3:**
      ```
      Numbers are not in order.
      ```
@@ -133,14 +132,13 @@
   - Display "Fizz" if the number is divisible by 3.
   - Display "Fuzz" if the number is divisible by 2.
   - Display "FizzFuzz" if the number is divisible by both 2 and 3 (i.e., divisible by 6).
-  - Otherwise, display the number itself.
+  - Otherwise, display nothing.
   
 - **Sample Input 1:**
   ```
   Enter a number: 6
   ```
 
-- **Sample Output 1:**
   ```
   FizzFuzz
   ```
@@ -150,7 +148,6 @@
   Enter a number: 9
   ```
 
-- **Sample Output 2:**
   ```
   Fizz
   ```
@@ -160,20 +157,10 @@
   Enter a number: 4
   ```
 
-- **Sample Output 3:**
   ```
   Fuzz
   ```
 
-- **Sample Input 4:**
-  ```
-  Enter a number: 7
-  ```
-
-- **Sample Output 4:**
-  ```
-  7
-  ```
 
 
 4. **Countdown Timer**
@@ -184,7 +171,7 @@
      ```
      Enter countdown time in seconds: 5
      ```
-   - **Sample Output:**
+   
      ```
      Time remaining: 5
      Time remaining: 4
@@ -195,15 +182,22 @@
      ```
 
 5. **Number Sequence Generator**
+Here’s how the instructions for the **Number Sequence Generator** can be modified to fit the code you've provided:
+
+---
+
+### 5. **Number Sequence Generator**
    - **Description:** 
-     - Ask the user to enter a starting number, an increment/decrement choice (`i`/`d`), and an end number.
-     - Generate and display the sequence based on the user's choice.
+     - Ask the user to enter a starting number, a hop value (step size), an increment/decrement choice (`1` for increment or `0` for decrement), and an end number.
+     - Generate and display the sequence based on the user's choice and the hop value.
    - **Sample Input 1:**
      ```
-     Enter a starting number: 1
-     Enter 'i' for increment or 'd' for decrement: i
-     Enter an end number: 5
+     Enter starting number: 1
+     Enter hop number: 1
+     Enter '1' for increment or '0' for decrement: 1
+     Enter ending number: 5
      ```
+
    - **Sample Output 1:**
      ```
      1
@@ -212,13 +206,16 @@
      4
      5
      ```
+
    - **Sample Input 2:**
      ```
-     Enter a starting number: 10
-     Enter 'i' for increment or 'd' for decrement: d
-     Enter an end number: 5
+     Enter starting number: 10
+     Enter hop number: 1
+     Enter '1' for increment or '0' for decrement: 0
+     Enter ending number: 5
      ```
-   - **Sample Output 2:**
+
+   
      ```
      10
      9
@@ -228,7 +225,7 @@
      5
      ```
 
----
+
 
 ### ### **Hard**
 
@@ -271,7 +268,7 @@
      ```
      Enter a word or phrase: hello
      ```
-   - **Sample Output 2:**
+   
      ```
      'hello' is not a palindrome.
      ```
@@ -292,7 +289,7 @@
      ```
      Enter a number: 15
      ```
-   - **Sample Output 2:**
+   
      ```
      15 is not a prime number.
      ```
@@ -305,7 +302,7 @@
      ```
      Enter a non-negative integer: 5
      ```
-   - **Sample Output:**
+   
      ```
      The factorial of 5 is 120.
      ```
@@ -318,7 +315,7 @@
      ```
      Enter a binary number: 1011
      ```
-   - **Sample Output:**
+   
      ```
      The decimal equivalent of 1011 is 11.
      ```
@@ -335,7 +332,7 @@
      ```
      Enter an expression: 3 + 5 * (2 - 1)
      ```
-   - **Sample Output:**
+   
      ```
      Result: 8
      ```
@@ -370,7 +367,7 @@
      Enter text to decrypt: Khoor Zruog
      Enter shift value: 3
      ```
-   - **Sample Output 2:**
+   
      ```
      Decrypted Text: Hello World
      ```
@@ -384,7 +381,7 @@
      Enter the first date (YYYY-MM-DD): 2024-01-01
      Enter the second date (YYYY-MM-DD): 2024-01-31
      ```
-   - **Sample Output:**
+   
      ```
      Number of days between 2024-01-01 and 2024-01-31 is 30 days.
      ```
